@@ -1,7 +1,6 @@
 body {
   text-align: center;
   font-family: helvetica, sans-serif;
-  position: relative;
 }
 h1 {
   font-size: 70px;
@@ -31,19 +30,14 @@ footer p {
   font-size: 11px;
   color: white;
 }
-#menu {
+#menu, #designed {
   background-image: url(../images/the-flatiron-building.png);
   color: white;
+}
+#menu ul {
+  padding: 0;
 }
 #menu li {
-  display: block;
   list-style: none;
   padding-top: 10px;
-}
-#designed {
-  background-image: url(../images/the-flatiron-building.png);
-  color: white;
-}
-.center {
-  float:none;
 }
